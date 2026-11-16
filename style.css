@@ -130,6 +130,8 @@ figcaption { font-size: 15px; color: var(--cream-dim); margin-top: 6px; }
 
 .good-for { margin-top: 26px; }
 .roadmap p { max-width: 760px; }
+/* brand banner at the end of the pack page: text width, not taller than 360 px; shown whole, never cropped */
+.banner-small { display: block; width: auto; height: auto; max-width: 100%; max-height: 360px; border-radius: 10px; margin: 20px 0 0; box-shadow: 0 8px 24px rgba(0, 0, 0, .3); }
 
 /* ---------- case study ---------- */
 .draft-flag { margin: 20px 0 0; padding: 10px 14px; border: 2px dashed var(--wood); border-radius: 8px; color: var(--cream); font-size: 15px; }
